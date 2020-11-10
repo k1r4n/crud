@@ -1,0 +1,29 @@
+.notesList{
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  flex-wrap: wrap;
+  .note{
+    box-shadow: 9px 9px 16px rgba(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+    border-radius: 1rem;
+    padding: .5rem;
+    @media only screen and (max-width: 1250px) {
+      width: 49%;
+    }
+    @media only screen and (min-width: 1251px) {
+      width: 32.5%;
+    }
+    @media only screen and (max-width: 850px) {
+      width: 99%;
+    }
+    background-color: #ffffff;
+    margin: .5rem 0.25rem;
+    .title{
+      display: flex;
+      justify-content: space-between;
+      .delete{
+        cursor: pointer;
+      }
+    }
+  }
+}

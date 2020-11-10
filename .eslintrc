@@ -1,0 +1,39 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true
+    },
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "templateStrings": true,
+        "jsx": true
+      }
+    },
+    "plugins": [
+      "react"
+    ],
+    "rules": {
+      "prefer-template": [0],
+      "require-jsdoc": [0],
+      "no-invalid-this": [0],
+      "react/jsx-uses-react": [2],
+      "react/jsx-uses-vars": [2],
+      "react/prop-types": [2],
+      "max-len": [0]
+    },
+    "settings": {
+      "react": {
+        "version": "16.0"
+      }
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "google"
+    ]
+  }
+  

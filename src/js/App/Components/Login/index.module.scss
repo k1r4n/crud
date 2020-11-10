@@ -1,0 +1,49 @@
+.login{
+    height: 100%;
+    width: 400px;
+    margin: 250px auto;
+    background-color: #E0E5EC;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 9px 9px 16px rgba(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+    .logo{
+        box-shadow: 9px 9px 16px rgba(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+        background-color: #E0E5EC;
+        border-radius: 50%;
+        width: 5rem;
+        height: 5rem;
+        padding-top: .25rem;
+        margin: auto;
+        text-align: center;
+        font-size: 48px;
+        color:#7E8999;
+    }
+    .form{
+        margin: 1rem;
+        text-align: center;
+        .alert{
+            box-shadow: 9px 9px 16px rgba(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+            background-color: #E0E5EC;
+            padding: 0.6rem 0rem 0.6rem 0.5rem;
+            margin: 1rem 0rem;
+            text-align: center;
+            color:#fa0101;
+            text-align: left;
+            border-radius: 10px;
+        }
+        input{
+            border-radius: 10px;
+            height: 3rem;
+            box-shadow: inset 5px 5px 10px rgba(163,177,198,0.6), inset -5px -5px 10px rgba(255,255,255, 0.5);
+            background-color: #E0E5EC;
+            border: 1px solid#E0E5EC;
+            color:#7E8999;
+        }
+        button{
+            box-shadow: 9px 9px 16px rgba(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+            background-color: #E0E5EC;
+            border: 1px solid#E0E5EC;
+            color:#7E8999;
+        }
+    }
+}
